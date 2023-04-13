@@ -154,18 +154,6 @@ ul {
     margin: auto;
 }
 
-/*.logo-footer {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
-    color: rgba(255, 255, 255, 1);
-}
-.logo-footer .logo-footer:hover,
-.logo-footer:focus {
-    text-decoration: underline;
-}*/
-
 .link-mail {
     color: var(--footer-link-color);
     font-family: 'Roboto';
@@ -221,40 +209,53 @@ ul {
     margin: auto;
     justify-content: flex-end;
 }
-.navi:hover,
-.navi:focus {
+.navi-mail {
+    color: var(--text-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin: auto;
+    margin-right: 50px;
+}
+.navi-tel {
+    color: var(--text-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    margin: auto;
+}
+.navi-mail:hover,
+.navi-mail:focus,
+.navi-tel:hover,
+.navi-tel:focus {
     color: var(--link-color);
 }
-.header-navi {
+.navi-header {
     display: inline-flex;
-    position: absolute;
     width: 254px;
     height: 16px;
     left: 453px;
     top: 32px;
+    margin: auto;
 }
-/* .navi-mailtel {
+.navi-adress {
     display: flex;
     justify-content: flex-end;
-}*/
+}
 
-.header-navi .navi {
+.navi-header .navi {
     color: var(--third-text-color);
 }
-.header-navi .navi:hover,
-.header-navi .navi:focus {
+.navi-header .navi:hover,
+.navi-header .navi:focus {
     color: var(--link-color);
 }
-
-/* .navi { 
-    color: rgba(33, 33, 33, 1);
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02 }*/
 
 .navi:hover {
     color: var(--link-color);
@@ -286,6 +287,15 @@ ul {
     text-align: center;
     font-size: 36px;
     letter-spacing: 0.03em;
+    margin: 87px 0 50px;
+}
+.occupation-container {
+    width: 1170px;
+    height: 386px;
+    margin-top: 87px;
+}
+.occupation-working {
+    display: flex;
 }
 .our-team {
     text-align: center;
@@ -322,9 +332,12 @@ ul {
     background-color: var(--link-color);
 }
 .text-container {
-    position: absolute;
     width: 1170px;
     height: 101px;
     left: 215px;
     top: 774px;
+    margin-top: 94px;
+}
+.lorem {
+    display: flex;
 }
