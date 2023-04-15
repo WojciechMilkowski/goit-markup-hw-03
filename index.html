@@ -12,29 +12,41 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cndjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        />
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
         <header>
-            <a class="logo-head" href="index.html"
-                ><span class="fonts-web-color">Web</span
-                ><span class="fonts-studio-color">Studio</span></a
-            >
+            <section class="navigation">
+                <div class="head-container">
+                    <a class="logo-head" href="index.html"
+                        ><span class="fonts-web-color">Web</span
+                        ><span class="fonts-studio-color">Studio</span></a
+                    >
 
-            <ul class="header-navi">
-                <li><a class="navi" href="#">Agencja</a></li>
-                <li>
-                    <a class="navi" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li><a class="navi" href="#">Kontakt</a></li>
-            </ul>
+                    <ul class="header-navi">
+                        <li><a class="navi" href="#">Agencja</a></li>
+                        <li>
+                            <a class="navi" href="./portfolio.html"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li><a class="navi" href="#">Kontakt</a></li>
+                    </ul>
 
-            <div class="navi">
-                <a class="navi" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
-                >
-                <a class="navi" href="tel:+48111111111">+48 111 111 111</a>
-            </div>
+                    <div class="navi-mail-tel">
+                        <a class="navi-mail" href="mailto:info@devstudio.com"
+                            >info@devstudio.com</a
+                        >
+                        <a class="navi-tel" href="tel:+48111111111"
+                            >+48 111 111 111</a
+                        >
+                    </div>
+                </div>
+            </section>
         </header>
         <main>
             <!--Hero-->
@@ -48,149 +60,146 @@
                     </button>
                 </div>
             </section>
+
             <!--Nasze możliwości-->
-            <section>
-                <div class="article text">
-                    <ul>
+            <section class="article-text">
+                <div class="container">
+                    <ul class="lorem">
                         <li>
                             <h3 class="article">Lorem ipsum</h3>
                             <p class="article-text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Velit at repudiandae laborum
-                                maxime ipsum? Nisi explicabo sunt aperiam vel
-                                sapiente nobis vitae impedit odit, doloremque,
-                                perferendis distinctio molestias beatae sit?
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
                             </p>
                         </li>
                         <li>
                             <h3 class="article">Lorem ipsum</h3>
                             <p class="article-text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Velit at repudiandae laborum
-                                maxime ipsum? Nisi explicabo sunt aperiam vel
-                                sapiente nobis vitae impedit odit, doloremque,
-                                perferendis distinctio molestias beatae sit?
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
                             </p>
                         </li>
                         <li>
                             <h3 class="article">Lorem ipsum</h3>
                             <p class="article-text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Velit at repudiandae laborum
-                                maxime ipsum? Nisi explicabo sunt aperiam vel
-                                sapiente nobis vitae impedit odit, doloremque,
-                                perferendis distinctio molestias beatae sit?
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
                             </p>
                         </li>
                         <li>
                             <h3 class="article">Lorem ipsum</h3>
                             <p class="article-text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Velit at repudiandae laborum
-                                maxime ipsum? Nisi explicabo sunt aperiam vel
-                                sapiente nobis vitae impedit odit, doloremque,
-                                perferendis distinctio molestias beatae sit?
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. Nam vel arcu sem. Sed non
+                                sodales dui. Interdum et malesuada
                             </p>
                         </li>
                     </ul>
                 </div>
             </section>
-            <section>
-                <!--Czym się zajmujemy-->
-                <h2 class="occupation">Czym sie zajmujemy</h2>
-                <ul>
-                    <li>
-                        <img
-                            src="images/1a.jpg"
-                            alt="coding"
-                            width="370"
-                            height="294"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            src="images/2a.jpg"
-                            alt="phone and computer"
-                            width="370"
-                            height="294"
-                        />
-                    </li>
-                    <li>
-                        <img
-                            src="images/3a.jpg"
-                            alt="the tablet in hand"
-                            width="370"
-                            height="294"
-                        />
-                    </li>
-                </ul>
+            <section class="our-job">
+                <div class="container">
+                    <!--Czym się zajmujemy-->
+                    <h2 class="occupation">Czym sie zajmujemy</h2>
+                    <ul class="things">
+                        <li>
+                            <img
+                                src="images/1a.jpg"
+                                alt="coding"
+                                width="370"
+                                height="294"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                src="images/2a.jpg"
+                                alt="phone and computer"
+                                width="370"
+                                height="294"
+                            />
+                        </li>
+                        <li>
+                            <img
+                                src="images/3a.jpg"
+                                alt="the tablet in hand"
+                                width="370"
+                                height="294"
+                            />
+                        </li>
+                    </ul>
+                </div>
             </section>
-            <section>
-                <!--Nasz zespół-->
-                <h2 class="our-team">Nasz zespół</h2>
+            <section class="team-people">
+                <div class="container">
+                    <!--Nasz zespół-->
+                    <h2 class="our-team">Nasz zespół</h2>
 
-                <ul>
-                    <li>
-                        <figure>
-                            <img
-                                src="images/person1.jpg"
-                                alt="John Doe Product Designer"
-                                width="270"
-                                height="260"
-                            />
-                            <figcaption>
-                                <span class="name">John Doe</span><br />
-                                <span class="proffession"
-                                    >Product Designer</span
-                                >
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img
-                                src="images/person2.jpg"
-                                alt="John Doe Fronted Deweloper"
-                                width="270"
-                                height="260"
-                            />
-                            <figcaption>
-                                <span class="name">John Doe</span><br />
-                                <span class="proffession"
-                                    >Fronted Deweloper</span
-                                >
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img
-                                src="images/person3.jpg"
-                                alt="John Doe Marketing"
-                                width="270"
-                                height="260"
-                            />
-                            <figcaption>
-                                <span class="name">John Doe</span><br />
-                                <span class="proffession">Marketing</span>
-                            </figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <img
-                                src="images/person4.jpg"
-                                alt="John Doe UI Designer"
-                                width="270"
-                                height="260"
-                            />
-                            <figcaption>
-                                <span class="name">John Doe</span><br />
-                                <span class="proffession">UI Designer</span>
-                            </figcaption>
-                        </figure>
-                    </li>
-                </ul>
+                    <ul class="workers">
+                        <li class="worker-first">
+                            <figure>
+                                <img
+                                    src="images/person1.jpg"
+                                    alt="John Doe Product Designer"
+                                    width="270"
+                                    height="260"
+                                />
+                                <figcaption>
+                                    <span class="name">John Doe</span><br />
+                                    <span class="proffession"
+                                        >Product Designer</span
+                                    >
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="worker-second">
+                            <figure>
+                                <img
+                                    src="images/person2.jpg"
+                                    alt="John Doe Fronted Deweloper"
+                                    width="270"
+                                    height="260"
+                                />
+                                <figcaption>
+                                    <span class="name">John Doe</span><br />
+                                    <span class="proffession"
+                                        >Fronted Deweloper</span
+                                    >
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="worker-third">
+                            <figure>
+                                <img
+                                    src="images/person3.jpg"
+                                    alt="John Doe Marketing"
+                                    width="270"
+                                    height="260"
+                                />
+                                <figcaption>
+                                    <span class="name">John Doe</span><br />
+                                    <span class="proffession">Marketing</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="worker-fourth">
+                            <figure>
+                                <img
+                                    src="images/person4.jpg"
+                                    alt="John Doe UI Designer"
+                                    width="270"
+                                    height="260"
+                                />
+                                <figcaption>
+                                    <span class="name">John Doe</span><br />
+                                    <span class="proffession">UI Designer</span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
             </section>
         </main>
         <footer class="footer-style">
