@@ -149,8 +149,10 @@ ul {
     letter-spacing: 0.03em;
     text-decoration: none;
     margin: auto;
+    min-width: 360px;
 }
 .lorem {
+    padding-top: 94px;
     display: flex;
 }
 
@@ -233,7 +235,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    margin: auto;
+    margin-right: 227px;
 }
 .navi-mail:hover,
 .navi-mail:focus,
@@ -245,13 +247,12 @@ ul {
     display: inline-flex;
     width: 254px;
     height: 16px;
-    left: 453px;
-    top: 32px;
-    margin: auto;
+    margin: 32px 371px 32px 93px;
 }
 .navi-address {
     display: flex;
     justify-content: flex-end;
+    margin: auto;
 }
 
 .navi-header .navi {
@@ -309,7 +310,6 @@ ul {
     letter-spacing: 0.03em;
     width: 210px;
     height: 42px;
-    margin-top: 94px;
 }
 .proffession {
     color: var(--text-color);
@@ -347,10 +347,9 @@ ul {
 }
 .text-container {
     width: 1170px;
-    height: 101px;
+    height: 108px;
     left: 215px;
     top: 774px;
-    margin-top: 94px;
 }
 
 .team-container {
