@@ -19,6 +19,7 @@ ul {
     --third-text-color: rgba(33, 33, 33, 1);
     --head-border-line: rgba(236, 236, 236, 1);
     --border-container: rgba(245, 244, 250, 1);
+    --border-item: rgba(238, 238, 238, 1);
 }
 .article {
     font-weight: 700;
@@ -65,8 +66,20 @@ ul {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    width: 100%;
+    /* width: 100%; */
     padding-top: 94px;
+}
+.contents {
+    display: flex;
+    flex-direction: column;
+}
+.card-set {
+    display: flex;
+
+    flex-wrap: wrap;
+    /* Set gap between rows and columns */
+    gap: 30px;
+    padding: 0;
 }
 
 .department {
@@ -88,8 +101,26 @@ ul {
 .fonts-studio-footer-color {
     color: var(--second-text-color);
 }
+.footer-container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-start;
+}
 .footer-style {
     background-color: var(--background-color);
+    display: flex;
+    height: 252px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.footer-link {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
 }
 .header-box {
     background-color: var(--second-text-color);
@@ -131,6 +162,13 @@ ul {
 .header-navi .navi:focus {
     color: var(--link-color);
 }
+
+.item {
+    padding: 0px 0px 0px 0px;
+    border: 1px solid;
+    color: var(--border-item);
+}
+
 .logo-head {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -141,17 +179,17 @@ ul {
     text-decoration: none;
 }
 
-/*.logo-footer {
+.logo-footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
+    line-height: 1.29;
+    letter-spacing: 0.03em;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
+    margin: 0;
+    padding-bottom: 20px;
 }
-.logo-footer .logo-footer:hover,
-.logo-footer:focus {
-    text-decoration: underline;
-}*/
 
 .link-mail {
     color: var(--footer-link-color);
@@ -162,6 +200,7 @@ ul {
     line-height: 1.46;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin: 0;
 }
 .link-mail:focus,
 .link-mail:hover,
@@ -176,6 +215,7 @@ ul {
     font-size: 14px;
     line-height: 1.46;
     letter-spacing: 0.03em;
+    margin: 0;
 }
 
 .link-https {
@@ -187,6 +227,7 @@ ul {
     line-height: 1.46;
     letter-spacing: 0.03em;
     text-decoration: none;
+    margin: 0 auto;
 }
 .links {
     display: inline-block;
@@ -251,6 +292,7 @@ ul {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 30px;
 }
 
 .objects {
@@ -300,6 +342,8 @@ ul {
     margin-top: 30px;
     cursor: pointer;
     border: var(--border-container);
+    /* display: flex; */
+    gap: 8px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
@@ -311,34 +355,32 @@ ul {
     display: flex;
     gap: 30px;
 }
-.team-people {
+.team-people-set {
     background: var(--border-container);
     margin-top: 94px;
+    display: flex;
+    /* Make a flex container multiline */
+    flex-wrap: wrap;
+    /* Set gap between rows and columns */
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+}
+.titles {
+    display: flex;
 }
 .workers {
     display: flex;
     padding-bottom: 94px;
+    gap: 30px;
 }
-.worker-first {
+.worker {
     border: 1px solid var(--border-container);
-    fill: none;
-    background: var(--second-text-color);
+
+    /*  Set the width of the elements  */
+    flex-basis: calc((100% - 20px) / 3);
+    border-radius: 0px 0px 4px 4px;
+    padding: 0px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.worker-second {
-    border: 1px solid var(--border-container);
-    fill: none;
-    background: var(--second-text-color);
-}
-.worker-third {
-    border: 1px solid var(--border-container);
-    background: var(--second-text-color);
-}
-.worker-fourth {
-    border: 1px solid var(--border-container);
-    background: var(--second-text-color);
-}
-/* figcaption { */
-text-align: center;
-padding-top: 30px;
-padding-bottom: 30px;
-/* } */
