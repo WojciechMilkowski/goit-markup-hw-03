@@ -75,7 +75,6 @@ ul {
 .card-set {
     display: flex;
     flex-wrap: wrap;
-
     gap: 26px;
     padding-bottom: 94px;
 }
@@ -166,7 +165,7 @@ ul {
 
 .item {
     padding: 0px 0px 0px 0px;
-    border: 1px solid;
+    border-bottom: 1px solid;
     color: var(--border-item);
     margin-left: 0px;
     margin-right: 0px;
