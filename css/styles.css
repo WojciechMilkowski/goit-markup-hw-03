@@ -27,7 +27,6 @@ ul {
     line-height: 1.1;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    /* width: 270px; */
     padding-bottom: 10px;
 }
 .article-text {
@@ -75,11 +74,10 @@ ul {
 }
 .card-set {
     display: flex;
-
     flex-wrap: wrap;
-    /* Set gap between rows and columns */
-    gap: 30px;
-    padding: 0;
+
+    gap: 26px;
+    padding-bottom: 94px;
 }
 
 .department {
@@ -90,6 +88,9 @@ ul {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-bottom: 20px;
 }
 
 .fonts-web-color {
@@ -167,6 +168,14 @@ ul {
     padding: 0px 0px 0px 0px;
     border: 1px solid;
     color: var(--border-item);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.item-figcaption {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .logo-head {
@@ -292,7 +301,8 @@ ul {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 .objects {
@@ -303,6 +313,9 @@ ul {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-top: 20px;
 }
 
 .occupation {
@@ -327,6 +340,7 @@ ul {
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 30px;
 }
 .portfolio-button {
     width: 121px;
@@ -340,11 +354,11 @@ ul {
     letter-spacing: 0.03em;
     border-radius: 4px;
     margin-top: 30px;
+    margin-right: 8px;
     cursor: pointer;
     border: var(--border-container);
-    /* display: flex; */
-    gap: 8px;
 }
+
 .portfolio-button:hover,
 .portfolio-button:focus {
     color: var(--second-text-color);
@@ -359,15 +373,14 @@ ul {
     background: var(--border-container);
     margin-top: 94px;
     display: flex;
-    /* Make a flex container multiline */
     flex-wrap: wrap;
-    /* Set gap between rows and columns */
     gap: 30px;
     padding: 0;
     list-style: none;
 }
 .titles {
     display: flex;
+    flex-direction: column;
 }
 .workers {
     display: flex;
@@ -375,12 +388,10 @@ ul {
     gap: 30px;
 }
 .worker {
-    border: 1px solid var(--border-container);
-
-    /*  Set the width of the elements  */
-    flex-basis: calc((100% - 20px) / 3);
+    border: 0px solid var(--border-container);
+    /* flex-basis: calc((100% - 20px) / 3); */
     border-radius: 0px 0px 4px 4px;
-    padding: 0px;
+    padding: 0px 0px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
