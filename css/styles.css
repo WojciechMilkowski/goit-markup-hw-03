@@ -62,11 +62,10 @@ ul {
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }*/
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    /* width: 100%; */
-    padding-top: 94px;
 }
 .contents {
     display: flex;
@@ -185,6 +184,7 @@ ul {
     line-height: 1.29;
     letter-spacing: 0.03em;
     text-decoration: none;
+    color: var(--link-color);
 }
 
 .logo-footer {
@@ -197,6 +197,7 @@ ul {
     color: rgba(255, 255, 255, 1);
     margin: 0;
     padding-bottom: 20px;
+    color: var(--link-color);
 }
 
 .link-mail {
@@ -363,6 +364,9 @@ ul {
     color: var(--second-text-color);
     border-style: none;
     background-color: var(--link-color);
+}
+.section {
+    padding: 94px 0;
 }
 .things {
     display: flex;
