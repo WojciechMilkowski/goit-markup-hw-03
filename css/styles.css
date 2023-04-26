@@ -81,6 +81,7 @@ ul {
 }
 .contents-buttons {
     max-width: 572px;
+    gap: 8px;
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 50px;
@@ -178,12 +179,13 @@ ul {
 .header-navi .navi {
     color: var(--third-text-color);
 }
-.q {
+.window-nav {
     margin: 0px 371px 0px 93px;
 }
 .header-navi {
     display: flex;
-    /* width: 254px; */
+    width: 254px;
+    margin: 0;
 }
 .header-navi .navi:hover,
 .header-navi .navi:focus {
@@ -376,7 +378,7 @@ ul {
 .portfolio-button {
     max-width: 121px;
     height: 38px;
-    /* text-align: center; */
+    text-align: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -384,9 +386,10 @@ ul {
     line-height: 1.62;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    /* margin: 0px 22px; */
+
     cursor: pointer;
     border: var(--border-container);
+    padding: 6px 22px;
 }
 
 .portfolio-button:hover,
