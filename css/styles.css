@@ -32,6 +32,14 @@ ul {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+.article-lorem {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
 .article-text {
     font-style: normal;
     font-weight: 400;
@@ -40,6 +48,7 @@ ul {
     letter-spacing: 0.03em;
     text-transform: none;
     color: var(--text-color);
+    padding: 94px 0;
 }
 
 .button-first {
@@ -243,10 +252,11 @@ ul {
     font-size: 36px;
     letter-spacing: 0.03em;
 }
-.our-team {
+.our-job {
     text-align: center;
     font-size: 36px;
     letter-spacing: 0.03em;
+    padding: 94px 0;
 }
 .proffession {
     color: var(--text-color);
@@ -257,7 +267,7 @@ ul {
     letter-spacing: 0.03em;
 }
 .portfolio-button {
-    width: 121px;
+    max-width: 121px;
     height: 38px;
     text-align: center;
     font-family: 'Roboto';
@@ -267,13 +277,16 @@ ul {
     line-height: 1.62;
     letter-spacing: 0.03em;
     border-radius: 4px;
-    margin-top: 30px;
     cursor: pointer;
     border: rgba(245, 244, 250, 1);
+    padding: 6px 22px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus {
     color: var(--second-text-color);
     border-style: none;
     background-color: var(--link-color);
+}
+.team-people-set {
+    padding: 94px 0;
 }
