@@ -11,49 +11,60 @@
             href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
             rel="stylesheet"
         />
+        <link
+            rel="stylesheet"
+            href="https://cndjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        />
         <link rel="stylesheet" href="./css/styles.css" />
     </head>
     <body>
         <header>
-            <a class="logo-head" href="./index.html"
-                ><span class="fonts-web-color">Web</span
-                ><span class="fonts-studio-color">Studio</span></a
-            >
-            <nav>
-                <ul class="header-navi">
-                    <li><a class="navi" href="#">Agencja</a></li>
-                    <li><a class="navi" href="#">Portfolio</a></li>
-                    <li><a class="navi" href="#">Kontakt</a></li>
-                </ul>
-            </nav>
-            <div class="links navi">
-                <a class="navi" href="mailto:info@devstudio.com"
-                    >info@devstudio.com</a
+            <div class="container">
+                <a class="logo-head" href="./index.html"
+                    >Web<span>Studio</span></a
                 >
+                <nav>
+                    <ul class="header-navi">
+                        <li><a class="navi" href="#">Agencja</a></li>
+                        <li><a class="navi" href="#">Portfolio</a></li>
+                        <li><a class="navi" href="#">Kontakt</a></li>
+                    </ul>
+                </nav>
+                <div class="links navi">
+                    <a class="navi" href="mailto:info@devstudio.com"
+                        >info@devstudio.com</a
+                    >
 
-                <a class="navi" href="tel:+48111111111">+48 111 111 111</a>
+                    <a class="navi" href="tel:+48111111111">+48 111 111 111</a>
+                </div>
             </div>
         </header>
         <main>
             <!--Contents-->
-            <div class="portfolio-buttons">
-                <button class="portfolio-button" type="button">
-                    Wszystkie
-                </button>
+            <div class="container">
+                <div class="portfolio-buttons">
+                    <button class="portfolio-button" type="button">
+                        Wszystkie
+                    </button>
 
-                <button class="portfolio-button" type="button">Strony</button>
+                    <button class="portfolio-button" type="button">
+                        Strony
+                    </button>
 
-                <button class="portfolio-button" type="button">
-                    Aplikacja
-                </button>
+                    <button class="portfolio-button" type="button">
+                        Aplikacja
+                    </button>
 
-                <button class="portfolio-button" type="button">Dizajn</button>
+                    <button class="portfolio-button" type="button">
+                        Dizajn
+                    </button>
 
-                <button class="portfolio-button" type="button">
-                    Marketing
-                </button>
+                    <button class="portfolio-button" type="button">
+                        Marketing
+                    </button>
+                </div>
             </div>
-            <div>
+            <div class="container">
                 <ul>
                     <li>
                         <figure>
@@ -197,25 +208,28 @@
             </div>
         </main>
         <footer class="footer-style">
-            <a class="logo-head" href="./index.html"
-                ><span class="fonts-web-color">Web</span
-                ><span class="fonts-studio-footer-color">Studio</span></a
-            >
-
-            <address>
-                <a
-                    class="link-https"
-                    href="https://goo.gl/maps/yTBh22XMnd1Yk1X46"
-                    target="blank"
-                    >m. Warszawa, Aleje Jerozolimskie 21</a
+            <div class="container">
+                <a class="logo-footer" href="./index.html"
+                    >Web<span>Studio</span></a
                 >
 
-                <a class="link-mail" href="mailto:info@example.com"
-                    >info@example.com</a
-                >
+                <address>
+                    <a
+                        class="link-https"
+                        href="https://goo.gl/maps/yTBh22XMnd1Yk1X46"
+                        target="blank"
+                        >m. Warszawa, Aleje Jerozolimskie 21</a
+                    >
 
-                <a class="link-tel" href="tel:+48111111111">+48 111 111 111</a>
-            </address>
+                    <a class="link-mail" href="mailto:info@example.com"
+                        >info@example.com</a
+                    >
+
+                    <a class="link-tel" href="tel:+48111111111"
+                        >+48 111 111 111</a
+                    >
+                </address>
+            </div>
         </footer>
     </body>
 </html>
